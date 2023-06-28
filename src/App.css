@@ -1,0 +1,126 @@
+/* App.css */
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+#navigation {
+  background-color: rgb(190, 25, 36);
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  letter-spacing: 2.5px;
+  box-shadow: 10px 10px 5px purple;
+}
+
+#navigation h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+#navigation ul {
+  list-style: none;
+  padding: 40px;
+  font-size: 30px;
+}
+
+#navigation ul li {
+  display: inline;
+  margin-right: 10px;
+  padding: 40px;
+}
+
+#navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* About Me Section */
+aside {
+  margin-top: 30px;
+}
+
+aside h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+aside p {
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+section {
+  margin-bottom: 30px;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section header {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+section img {
+  max-width: 100%;
+}
+
+/* Footer */
+#footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  width: 100%;
+  background-color: red;
+  height: 60px;
+  margin-top: auto;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  margin-top: auto;
+}
+
+#footer ul li {
+  margin-bottom: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  float: right;
+  padding: 10px;
+  margin-top: auto;
+}
+
+#footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
